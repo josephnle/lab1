@@ -13,9 +13,9 @@ h1,h2,h3,h4,h5,h6 {
 
 header {
     background: url(../img/bg.jpg);
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
-    height: 550px;
+    height: 600px;
     position: relative;
 }
 
@@ -27,6 +27,15 @@ header h1 {
 
 header p {
     font-size: 1em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
 }
 
 header ul {
@@ -49,6 +58,11 @@ header .title {
     bottom: 0;
     padding: 0 10%;
     color: white;
+}
+
+header .blurb {
+    font-weight: 300;
+    width: 50%;
 }
 
 .content {
